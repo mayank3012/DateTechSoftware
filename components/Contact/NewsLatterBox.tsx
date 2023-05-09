@@ -8,10 +8,13 @@ const NewsLatterBox = () => {
         Subscribe to receive future updates
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+        So we can keep you updated about our new service and offers.
       </p>
-      <form>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4b747e76-d633-40e0-a717-fd56241c35c3" />
+        <input type="hidden" name="subject" value="News Letter Box from Datetech Software" />
+        <input type="hidden" name="datetechSoftware" value="DateTech Software" />
+        <input type="checkbox" name="botcheck" id="" style={{ display: "none" }} />
         <input
           type="text"
           name="name"
@@ -29,9 +32,7 @@ const NewsLatterBox = () => {
           value="Subscribe"
           className="duration-80 mb-4 w-full cursor-pointer rounded-md border border-transparent bg-primary py-3 px-6 text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none"
         />
-        <p className="text-center text-base font-medium leading-relaxed text-body-color">
-          No spam guaranteed, So please don’t send any spam mail.
-        </p>
+
       </form>
       <div className="absolute top-0 left-0 z-[-1]">
         <svg

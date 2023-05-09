@@ -19,7 +19,7 @@ const featuresData: Feature[] = [
       // </svg>
       <BsPersonVcardFill className="fill-current" size={40} />
     ),
-    title: "Modern Bussiness Cards Designs",
+    title: "Modern Business Cards Designs",
     paragraph:
       "A Modern business card typically includes the giver's name, company or business affiliation (usually with a logo) and contact information such as street addresses, telephone number(s), fax number, e-mail addresses and website. Before the advent of electronic communication business cards might also include telex details.",
   },
@@ -71,7 +71,7 @@ const featuresData: Feature[] = [
     icon: (
       <MdDesignServices className="fill-current" size={40} />
     ),
-    title: "Posters, Banners & Other Createive Items",
+    title: "Posters, Banners & Other Creative Items",
     paragraph:
       "Creative items design is the one that can convey a message to its audience in a unique way. The use of colors, typefaces, images, illustrations, etc. elements must stand out. The other factors such as scalability and readability of your poster should also be considered.",
   },
